@@ -1,77 +1,107 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 /* HEADER STYLES */
-/* .header {
-    height: 40px;
-    width: 100%;
-    padding: 30px 10px 30px 10px;
-    background: palevioletred;
-    margin: 0;
-    display: flex;
-    text-align: right;
-    flex-direction: row;
-    
-} */
 
-/* .sign-up-container{
-    height: 36px;
-    width: 291px;
-    /* padding-left: 1098px; 
-    float: right;
-    padding-top: 10px;
-    /* padding-right: 30px; 
-    padding-bottom: 14px;
-    margin:0;
-    order:1;} */
+.header {
+  height: 40px;
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+  margin: 0;
+  display: flex;
+  text-align: right;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 
-/* .sign-textbox{
-    width: 80px;
-} */
-/* .existing-account{
-    height: 18px;
-    width: 168px;
-    color: #505050;
-    font-size: 12px;
-    margin-bottom: 0;
-} */
+.sign-up-container {
+  height: 36px;
+  width: 280px;
+  float: right;
+}
 
-/* .forgot-password{
-    height: 16px;
-    width: 169px;
-    color: #0077C5;
-    font-size: 12px;
-} */
+.sign-textbox {
+  width: 80px;
+  float: left;
+  order: 1;
+}
 
-.sign-in-button{
-    height: 32px;
-    width: 60px;
-    /* padding: 20px 0px 20px 0px; */
-    border: 1px 1px 1px 1px;
-    fill: #0077C5;
-    border-color: #4C4C4C;
-    color: #FFFFFF;
-    font-size: 13.5px;
-    font-weight: lighter;
-    order:2;
+.existing-account {
+  width: 168px;
+  color: #505050;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: right;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  line-height: 14px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 2px;
+}
+
+.forgot-password {
+  width: 169px;
+  color: #0077C5;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: right;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 14px;
+  margin-top: -16px;
+  padding-bottom: 2px;
+  margin-right: 2px;
+}
+
+.sign-in-button {
+  border: 1px 1px 1px 1px;
+  background: #0077C5;
+  border-color: #4C4C4C;
+  color: #FFFFFF;
+  font-size: 1.125em;
+  font-weight: lighter;
+  border-radius: 4px;
+  float: right;
+  order: 2;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sign-in-button, button {
+  height: 32px;
+  width: 100px;
+  color: #ECEEF1;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: middle;
+  font-size: 12.5px;
+}
+
+.sign-in-button, i {
+  vertical-align: middle;
+  font-size: 15px !important;
+  padding-right: 2px;
 }
 
 .center {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+/*FORM STYLES*/
+
 .form {
-    height: 626px;
-    width: 318px;
-    padding: 30px 30px 30px 30px;
-    border: 1px 1px 1px 1px;
-    margin: 522px 0px 522px 0px;
-    border-style: solid;
-    border-color: #C7C7C7;
-    position: 523 122;
-    display: block;
-    margin: auto;
+  height: 626px;
+  width: 318px;
+  padding: 30px 30px 30px 30px;
+  border: 1px 1px 1px 1px;
+  margin: 522px 0px 522px 0px;
+  border-style: solid;
+  border-color: #C7C7C7;
+  position: 523 122;
+  display: block;
+  margin: auto;
 }
