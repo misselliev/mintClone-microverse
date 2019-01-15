@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    height: 35px;
+    width: 1425px;
+    background: palevioletred;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin:0;
+    display: block;
+    text-align: center;
+}
+
+.header-icons{
+    height: 28px;
+    width: 1425px;
+    margin: 0 0 0 15;
+    background:greenyellow;
+}
+
+.form{
+    height: 626px;
+    width: 318px;
+    padding: 30 30 30 30;
+    border: 1 1 1 1;
+    margin: 522 0 522 0;
+    border-style: solid;
+    border-color: #C7C7C7;
+    position: 523 122;
+    display: block;
+    margin:auto;
+}
