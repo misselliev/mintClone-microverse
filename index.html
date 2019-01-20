@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8" />
@@ -19,11 +19,11 @@
 <body>
   <header class="header">
     <div class="sign-up-container">
-      <span class="sign-textbox">
-        <div class="existing-account">Already have an Intuit account?</div><br>
-        <div class="forgot-password">I forgot my User ID or Password</div>
-      </span>
-      <span><button class="sign-in-button">
+      <div class="sign-textbox">
+        <div class="existing-account font-style letter-size">Already have an Intuit account?</div><br>
+        <div class="forgot-password font-style letter-size">I forgot my User ID or Password</div>
+      </div>
+      <span><button class="sign-in-button font-style">
           <i class="material-icons">lock</i>
           Sign In</button></span>
     </div>
@@ -33,21 +33,21 @@
     <img id="logo" class="center" src="img/intuit-logo.png" alt="intuit-logo" />
   </header>
   <div class="sign-up-form center">
-    <span id="slogan">
+    <span id="slogan" class="font-style">
       One Account.
       <br>
       Everything Intuit.
     </span>
     <div style="padding: 20px 0px 20px 0px">
-      <div id="create-text">
+      <div id="create-text" class="font-style">
         Create an account for all of Intuit's products.
       </div>
-      <div id="create-text" style="text-decoration: none; color: #0077C5; font-size: 12px;">
-        Learn more
+      <div id="learn-more" style="text-decoration: none; color: #0077C5; font-size: 12px;">
+        <a href="">Learn more</a>
       </div>
     </div>
 
-    <form class="main-form">
+    <form class="main-form font-style">
       <label for="email">Email address</label>
       <div class="input-box"><input class="h-center" type="text" name="email" id="email"></div>
 
@@ -61,13 +61,13 @@
 
       <br>
 
-      <button class="create-account-btn" name="submit">
-        <a href=""><i class="material-icons" style="text-decoration: none; color: white; font-size: 18px; line-height: 16px">lock</i></a>&nbsp;&nbsp;
+      <button class="create-account-btn font-style" name="submit">
+        <i class="material-icons" style="text-decoration: none; color: white; font-size: 18px; line-height: 16px">lock</i>&nbsp;&nbsp;
         Create Account
       </button>
 
       <div class="disclaimers">
-        <p class="license-agreement">
+        <p class="license-agreement font-style letter-size">
           By clicking Create Account, you agree to our
           <a href="#" class="link-deco-footer">
             <br>License Agreement</a> and have read and acknowledge
@@ -77,33 +77,27 @@
       <div class="captcha">
         Invisible reCAPTCHA by Google <a href="#" class="link-deco-footer" style="font-size: 10px">Privacy Policy</a>
         and
-        <a href="#" class="link-deco-footer" style="font-size: 10px">Terms
+        <a href="#" class="link-deco-footer letter-size" style="font-size: 10px">Terms
           of Use</a>.
       </div>
     </form>
   </div>
-  <footer>
-    <div>
-      <div class="link-deco" style="text-decoration: none">
-        <ul>
-          <a href="#">
-            <li>Legal</li>
-          </a>
-          <a href="#">
-            <li>Privacy</li>
-          </a>
-          <a href="#">
-            <li>Security</li>
-          </a>
-        </ul>
-        <div class="copyright">© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect
-          and Mint are
-          registered
-          trademarks of Intuit Inc.
-          <br>
-          Terms and conditions, features, support, pricing, and service options subject to change without notice.
-        </div>
+  <footer class="letter-size">
+    <div class="link-deco letter-size" style="text-decoration: none">
+      <ul>
+        <li>Legal</li>
+        <li>Privacy</li>
+        <li>Security</li>
+      </ul>
+      <div class="copyright letter-size">© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax,
+        ProConnect
+        and Mint are
+        registered
+        trademarks of Intuit Inc.
+        <br>
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.
       </div>
+    </div>
   </footer>
 </body>
 
