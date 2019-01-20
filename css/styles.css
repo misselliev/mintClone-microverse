@@ -123,6 +123,16 @@ div, #create-text {
   text-align: center;
 }
 
+.learn-more a{
+  text-decoration: none; 
+  color: #0077C5 !important; 
+  /* font-size: 12px; */
+}
+
+.learn-more a:hover{
+text-decoration: underline;
+}
+
 .link-deco ul li {
   text-decoration: none;
   color: #505050 !important;
