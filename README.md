@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="cloning-mint">Cloning mint's sign up form</h1>
 <p>Second project of the <a href="https://www.microverse.org/">Microverse</a> curriculum from the CSS3 and HTML section.</p>
 <p>In this project, you’ll get a chance to rebuild the form used by Mint for signing up new users. They have been highly praised for the design and simplicity of their site, and their signup process is very clean.</p>
