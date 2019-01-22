@@ -116,6 +116,10 @@ span, #slogan {
   line-height: 26.4px;
 }
 
+.sign-up-form div:nth-child(1) {
+  padding: 20px 0px 20px 0px !important;
+}
+
 div, #create-text {
   line-height: 1.2em;
   font-size: 14px;
@@ -123,14 +127,13 @@ div, #create-text {
   text-align: center;
 }
 
-.learn-more a{
-  text-decoration: none; 
-  color: #0077C5 !important; 
-  /* font-size: 12px; */
+.learn-more a {
+  text-decoration: none;
+  color: #0077C5 !important;
 }
 
-.learn-more a:hover{
-text-decoration: underline;
+.learn-more a:hover {
+  text-decoration: underline;
 }
 
 .link-deco ul li {
@@ -166,6 +169,13 @@ text-decoration: underline;
   font-size: 10px;
   padding-bottom: 5px;
   text-align: left;
+}
+
+.create-account-btn i {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 16px
 }
 
 .create-account-btn {
