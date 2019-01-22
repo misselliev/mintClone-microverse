@@ -211,6 +211,10 @@ div, #create-text {
   padding-right: 44px
 }
 
+.captcha a {
+  font-size: 10px;
+}
+
 .license-agreement {
   color: #bbb;
   font-style: italic;
