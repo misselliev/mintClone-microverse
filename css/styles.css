@@ -1,5 +1,5 @@
 html body {
-  margin: 0px;
+  margin:0;
   background: #ECEEF1;
 }
 
@@ -117,7 +117,7 @@ span, #slogan {
 }
 
 .sign-up-form div:nth-child(1) {
-  padding: 20px 0px 20px 0px !important;
+  padding: 20px0 20px0 !important;
 }
 
 div, #create-text {
@@ -192,7 +192,7 @@ div, #create-text {
 .disclaimers {
   width: 100%;
   height: 63px;
-  padding: 42px 0px 32px 0px;
+  padding: 42px0 32px0;
 }
 
 .captcha {
@@ -221,7 +221,7 @@ div, #create-text {
 
 footer {
   color: #505050;
-  margin: 30px 0px 21px 0px;
+  margin: 30px0 21px0;
 }
 
 .copyright {
